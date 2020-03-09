@@ -18,15 +18,56 @@ header {
   padding-right: 8%;
 }
 .menu {
-  height: 90vh;
+  height: 100vh;
   width: 5%;
   overflow: hidden;
-  transition: all .3s ease;
-  border: solid black 2px;
+  transition: all .10s ease;
+  border: solid black 1px;
   position: fixed;
   top: 0%;
 }
-
+#menu {
+  transform: rotate(-90deg);
+  font-family: 'Playfair Display';
+  color: #ffffff;
+  font-size: 4vw;
+  position: fixed;
+  top: 10%;
+  left: -3%;
+}
 .show {
+  background-image: url(assets/menuonbg.png);
+  background-size: cover;
+  background-position: center;
   width: 50%;
+  z-index: +1;
+}
+.show #menu {
+  content:"x";
+}
+.about {
+  height: 100vh;
+  width: 5%;
+  overflow: hidden;
+  transition: all .9s ease;
+  border: solid red 1px;
+  position: fixed;
+  top: 0%;
+  left: 5%;
+}
+#about {
+  transform: rotate(-90deg);
+  font-family: 'Playfair Display';
+  color: #ffffff;
+  font-size: 4vw;
+  position: fixed;
+  top: 10%;
+  left: 3%;
+}
+.showabout {
+  background-image: url(assets/about.png);
+  background-size: cover;
+  background-position: center;
+  width: 60%;
+  z-index: +1;
 }
