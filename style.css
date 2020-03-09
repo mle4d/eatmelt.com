@@ -15,5 +15,18 @@ header {
   font-weight: 600;
   color: #ffffff;
   text-align: right;
-  padding-right: 10%;
+  padding-right: 8%;
+}
+.menu {
+  height: 90vh;
+  width: 5%;
+  overflow: hidden;
+  transition: all .3s ease;
+  border: solid black 2px;
+  position: fixed;
+  top: 0%;
+}
+
+.show {
+  width: 50%;
 }
