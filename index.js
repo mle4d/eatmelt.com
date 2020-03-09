@@ -8,3 +8,7 @@ document.querySelector('#openabout').addEventListener('click', function() {
   window.body
 });
 
+document.querySelector('#openmerch').addEventListener('click', function() {
+  document.querySelector('.merch').classList.toggle('showmerch');
+  window.body
+});
