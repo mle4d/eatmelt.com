@@ -9,3 +9,11 @@ html {
 body {
   margin: 0;
 }
+header {
+  font-family: 'Playfair Display';
+  font-size: 15vw;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: right;
+  padding-right: 10%;
+}
