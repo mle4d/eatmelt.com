@@ -216,7 +216,7 @@ header {
     font-weight: 200;
   }
   .about {
-    height: 5vh;
+    height: 6vh;
     width: 100vh;
     overflow: hidden;
     transition: all .9s ease;
@@ -246,12 +246,12 @@ header {
   }
 
   .menu {
-    height: 5vh;
+    height: 6vh;
     width: 100vh;
     overflow: hidden;
     transition: all .9s ease;
     position: fixed;
-    top: 5%;
+    top: 6%;
     left: 0%;
   }
   #menu {
@@ -280,12 +280,12 @@ header {
   }
 
   .merch {
-    height: 5vh;
+    height: 6vh;
     width: 100vh;
     overflow: hidden;
     transition: all .9s ease;
     position: fixed;
-    top: 10%;
+    top: 11%;
     left: 0%;
   }
   #merch {
