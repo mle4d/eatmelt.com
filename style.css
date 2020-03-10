@@ -27,6 +27,9 @@ header {
   position: fixed;
   top: 0%;
 }
+#about::before {
+  content:"about";
+}
 #about {
   transform: rotate(-90deg);
   font-family: 'Playfair Display';
@@ -38,13 +41,29 @@ header {
 }
 .showabout {
   background-image: url(assets/about.png);
-  background-size: 90%;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-color: #fdcee2;
   background-position: center;
   transition: all .9s ease;
   width: 50%;
   z-index: +1;
+}
+.showabout #about {
+  transform: rotate(0deg);
+  color: transparent;
+  position: fixed;
+  top: -2%;
+  left: -8%;
+}
+.showabout #about::after {
+  font-size: 2vw;
+  content:"close";
+  padding: 5px;
+  border: solid 2px #ffffff;
+  border-radius: 50px;
+  background: #fdcee2;
+  color: #ffffff;
 }
 .menu {
   height: 100vh;
@@ -108,6 +127,9 @@ header {
   top: 0%;
   left: 16%;
 }
+#merch::before {
+  content:"merch";
+}
 #merch {
   transform: rotate(-90deg);
   font-family: 'Playfair Display';
@@ -123,6 +145,25 @@ header {
   background-repeat: no-repeat;
   background-position: top;
   transition: all .9s ease;
-  width: 60%;
+  width: 50%;
   z-index: +1;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+}
+.showmerch #merch {
+  transform: rotate(0deg);
+  color: transparent;
+  position: fixed;
+  top: -2%;
+  left: -8%;
+}
+.showmerch #merch::after {
+  font-size: 2vw;
+  content:"close";
+  padding: 5px;
+  border: solid 2px #ffffff;
+  border-radius: 50px;
+  background: #fdcee2;
+  color: #ffffff;
 }
