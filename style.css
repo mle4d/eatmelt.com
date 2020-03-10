@@ -202,16 +202,16 @@ header {
   outline-color: #ffe9f2;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
   html {
     background-size: 50%; 
     background-attachment: fixed;
     background-position: bottom right;
   }
   header {
-    font-size: 16em;
+    font-size: 30vw;
     text-align: left;
-    padding-top: 40%;
+    padding-top: 50%;
     padding-left: 5%;
     font-weight: 200;
   }

@@ -137,7 +137,7 @@ h3 {
   text-decoration: none;
   cursor: pointer;
 }
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
   .ogModal {
     width: 100%; 
     left: 4%;
@@ -154,15 +154,9 @@ h3 {
     width: 100%; 
     left: 4%;
   }
-  .merchName {
-    font-size: 4em;
-  }
   select {
     width: 80%;
     height: 5%;
-  }
-  .fit {
-    font-size: 2em;
   }
   #addToCart {
     margin-top: 10px;
