@@ -276,4 +276,39 @@ header {
   .showmenu #menu::after {
     font-size: 4vw;
   }
+
+  .merch {
+    height: 5vh;
+    width: 100vh;
+    overflow: hidden;
+    transition: all .9s ease;
+    position: fixed;
+    top: 10%;
+    left: 0%;
+    border: solid 2px yellow;
+  }
+  #merch {
+    transform: rotate(0deg);
+    font-size: 5vw;
+    position: fixed;
+    top: 8%;
+    left: 45%;
+  }
+  .showmerch {
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fdcee2;
+    width: 100%;
+    height: 101%;
+    position: fixed;
+    top: -1%;
+  }
+  .showmerch #merch {
+    top: 2%;
+    left: 2%;
+  }
+  .showmerch #merch::after {
+    font-size: 4vw;
+  }
 }
