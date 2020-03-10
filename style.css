@@ -164,3 +164,39 @@ header {
   background: #fdcee2;
   color: #ffffff;
 }
+.merch .btn {
+  background-color: transparent;
+  border: solid 1px transparent;
+}
+.showmerch .btn {
+    background-position: center;
+    background-color: transparent;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 40%;
+    border: none;
+    margin-top: 5px;
+}
+#ogBtn {
+  background-image: url(assets/ogtee.png);
+  margin-top:10%;
+  margin-left: 15%;
+  outline-color: #ffe9f2;
+}
+#mintBtn {
+  background-image: url(assets/mintee.png);
+  margin-top:10%;
+  outline-color: #ffe9f2;
+}
+#creepBtn {
+  background-image: url(assets/creeptee.png);
+  margin-top:5%;
+  margin-left: 15%;
+  outline-color: #ffe9f2;
+}
+#shortsBtn {
+  background-image: url(assets/shorts.png);
+  margin-top:5%;
+  outline-color: #ffe9f2;
+}
