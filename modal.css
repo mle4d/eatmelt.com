@@ -1,0 +1,139 @@
+.ogModal {
+  display: none; 
+  position: fixed; 
+  z-index: +1; 
+  left: 8%;
+  top: 10%;
+  width: 45%; 
+  height: 60%;
+  overflow: scroll;
+}
+.mintModal {
+  display: none; 
+  position: fixed; 
+  z-index: +1; 
+  left: 8%;
+  top: 10%;
+  width: 45%; 
+  height: 60%; 
+  overflow: scroll;
+}
+.creepModal {
+  display: none; 
+  position: fixed; 
+  z-index: +1; 
+  left: 8%;
+  top: 10%;
+  width: 45%; 
+  height: 60%;
+  overflow: scroll;
+}
+.shortsModal {
+  display: none; 
+  position: fixed; 
+  z-index: +1; 
+  left: 8%;
+  top: 10%;
+  width: 45%; 
+  height: 60%;
+  overflow: scroll;
+}
+.modal-content {
+  background-image: url(assets/pinkmelt.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: right bottom;
+  background-color: #fdcee2;
+  border: 3px solid #ffffff;
+  border-radius: 5%;
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: 'Playfair Display';
+}
+#ogshirt {
+  background-image: url(assets/ogtee.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 100%;
+}
+#mintshirt {
+  background-image: url(assets/mintee.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 100%;
+}
+#creepshirt {
+  background-image: url(assets/creeptee.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 100%;
+}
+#shorts {
+  background-image: url(assets/shorts.png);
+  background-position: left;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 100%;
+}
+.merchOptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 40%;
+  height: 80%;
+  align-items: center;
+}
+.merchName {
+  font-family: 'Playfair';
+  color: #ffffff;
+  font-size: 2.5em;
+  text-align: center;
+  text-decoration-line: underline;
+  padding: 0px;
+  margin: -10px;
+}
+select {
+  width: 80%;
+  height: 8%;
+}
+.fit {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Playfair';
+  color: #ffffff;
+  font-size: 1em;
+  justify-content: space-around;
+}
+h3 {
+  font-size: 2em;
+  text-align: center;
+  text-decoration-line: underline;
+}
+#addToCart {
+  margin-top: 10px;
+  width: 60%;
+  height: 10%;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
