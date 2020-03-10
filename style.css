@@ -4,7 +4,9 @@ html {
   background-image:url(assets/bg.png);
   background-repeat: no-repeat;
   background-color: #fdcee2;
-  background-position: right top;
+  background-attachment: fixed;
+  background-size: 20%;
+  background-position: right bottom;
 }
 body {
   margin: 0;
