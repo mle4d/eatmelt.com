@@ -251,7 +251,7 @@ header {
     left: 2%;
   }
   .showabout #about::after {
-    font-size: 4vw;
+    font-size: 8vw;
   }
 
   .menu {
@@ -285,7 +285,7 @@ header {
     left: 2%;
   }
   .showmenu #menu::after {
-    font-size: 4vw;
+    font-size: 8vw;
   }
 
   .merch {
@@ -319,6 +319,6 @@ header {
     left: 2%;
   }
   .showmerch #merch::after {
-    font-size: 4vw;
+    font-size: 8vw;
   }
 }
