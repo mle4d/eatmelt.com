@@ -158,6 +158,9 @@ h3 {
     width: 80%;
     height: 5%;
   }
+  .fit {
+    font-size: 4vw;
+  }
   #addToCart {
     margin-top: 10px;
     width: 60%;
