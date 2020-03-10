@@ -137,3 +137,39 @@ h3 {
   text-decoration: none;
   cursor: pointer;
 }
+@media (max-width: 1000px) {
+  .ogModal {
+    width: 100%; 
+  }
+  .mintModal {
+    width: 100%; 
+  }
+  .creepModal {
+    width: 100%; 
+  }
+  .shortsModal {
+    width: 100%; 
+  }
+  .merchName {
+    font-size: 4em;
+  }
+  select {
+    width: 80%;
+    height: 5%;
+  }
+  .fit {
+    font-size: 2em;
+  }
+  #addToCart {
+    margin-top: 10px;
+    width: 60%;
+    height: 5%;
+  }
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 4em;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+}
