@@ -38,6 +38,9 @@ header {
   top: 10%;
   left: -2%;
 }
+#about:hover {
+  color: #aaaaaa;
+}
 .showabout {
   background-image: url(assets/about.png);
   background-size: 100%;
@@ -87,6 +90,9 @@ header {
   top: 10%;
   left: 7%;
 }
+#menu:hover {
+  color: #aaaaaa;
+}
 .showmenu {
   background-image: url(assets/menuonbg.png);
   background-size: cover;
@@ -112,7 +118,7 @@ header {
   
 }
 .showmenu #menu:hover::after { 
-  color: #f99ec5d7;
+  color: #aaaaaa;
 }
 
 .merch {
@@ -135,6 +141,9 @@ header {
   position: fixed;
   top: 10%;
   left: 14%;
+}
+#merch:hover {
+  color: #aaaaaa;
 }
 .showmerch {
   background-image: url(assets/meltcloseup.jpg);
