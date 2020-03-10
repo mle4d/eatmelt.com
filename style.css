@@ -204,10 +204,41 @@ header {
 
 @media (max-width: 1000px) {
   html {
-    background-size: 75%; 
+    background-size: 70%; 
+    margin-top: 30%;
   }
   header {
     text-align: right;
     padding-top: 20%;
+  }
+  .about {
+    height: 5vh;
+    width: 100vh;
+    overflow: hidden;
+    transition: all .9s ease;
+    position: fixed;
+    top: 0%;
+    border: solid 2px black;
+  }
+  #about::before {
+    content:"about";
+  }
+  #about {
+    transform: rotate(0deg);
+    font-size: 5vw;
+    position: fixed;
+    top: -2%;
+    left: 50%;
+  }
+  .showabout {
+    width: 100%;
+    height: 100%;
+  }
+  .showabout #about {
+    top: 2%;
+    left: 2%;
+  }
+  .showabout #about::after {
+    font-size: 4vw;
   }
 }
