@@ -152,7 +152,7 @@ header {
   transform: rotate(0deg);
   color: transparent;
   position: fixed;
-  top: -2%;
+  top: -8%;
   left: -8%;
 }
 .showmerch #merch::after {
@@ -177,6 +177,7 @@ header {
     height: 40%;
     border: none;
     margin-top: 5px;
+    cursor: pointer;
 }
 #ogBtn {
   background-image: url(assets/ogtee.png);
