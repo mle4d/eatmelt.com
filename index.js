@@ -1,4 +1,4 @@
-document.querySelector('a').addEventListener('click', function() {
+document.querySelector('#openmenu').addEventListener('click', function() {
   document.querySelector('.menu').classList.toggle('showmenu');
   window.body
 });
