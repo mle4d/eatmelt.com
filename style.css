@@ -202,8 +202,12 @@ header {
   outline-color: #ffe9f2;
 }
 
-@media (min-width: 500px) {
+@media (max-width: 1000px) {
   html {
     background-size: 75%; 
+  }
+  header {
+    text-align: right;
+    padding-top: 20%;
   }
 }
