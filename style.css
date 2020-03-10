@@ -204,7 +204,7 @@ header {
 
 @media (max-width: 1000px) {
   html {
-    background-size: 60%; 
+    background-size: 50%; 
     background-attachment: fixed;
     background-position: bottom right;
   }
@@ -230,7 +230,7 @@ header {
     transform: rotate(0deg);
     font-size: 5vw;
     position: fixed;
-    top: -2%;
+    top: -1%;
     left: 45%;
   }
   .showabout {
@@ -292,7 +292,7 @@ header {
     transform: rotate(0deg);
     font-size: 5vw;
     position: fixed;
-    top: 8%;
+    top: 10%;
     left: 45%;
   }
   .showmerch {
