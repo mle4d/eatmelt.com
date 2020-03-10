@@ -56,13 +56,13 @@ header {
   left: -8%;
 }
 .showabout #about::after {
-  font-size: 2vw;
-  content:"close";
-  padding: 5px;
-  border: solid 2px #ffffff;
-  border-radius: 50px;
-  background: #fdcee2;
+  font-size: 4vw;
+  content:"ⓧ";
   color: #ffffff;
+  
+}
+.showabout #about:hover::after { 
+  color: #aaaaaa;
 }
 .menu {
   height: 100vh;
@@ -106,13 +106,13 @@ header {
   left: -8%;
 }
 .showmenu #menu::after {
-  font-size: 2vw;
-  content:"close";
-  padding: 5px;
-  border: solid 2px #ffffff;
-  border-radius: 50px;
-  background: #fdcee2;
-  color: #ffffff;
+  font-size: 4vw;
+  content:"ⓧ";
+  color: #fabdd8;
+  
+}
+.showmenu #menu:hover::after { 
+  color: #f99ec5d7;
 }
 
 .merch {
@@ -156,13 +156,13 @@ header {
   left: -8%;
 }
 .showmerch #merch::after {
-  font-size: 2vw;
-  content:"close";
-  padding: 5px;
-  border: solid 2px #ffffff;
-  border-radius: 50px;
-  background: #fdcee2;
+  font-size: 4vw;
+  content:"ⓧ";
   color: #ffffff;
+  
+}
+.showmerch #merch:hover::after { 
+  color: #aaaaaa;
 }
 .merch .btn {
   background-color: transparent;
