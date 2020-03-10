@@ -140,15 +140,19 @@ h3 {
 @media (max-width: 1000px) {
   .ogModal {
     width: 100%; 
+    left: 4%;
   }
   .mintModal {
     width: 100%; 
+    left: 4%;
   }
   .creepModal {
     width: 100%; 
+    left: 4%;
   }
   .shortsModal {
     width: 100%; 
+    left: 4%;
   }
   .merchName {
     font-size: 4em;
