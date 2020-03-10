@@ -201,3 +201,9 @@ header {
   margin-top:5%;
   outline-color: #ffe9f2;
 }
+
+@media (min-width: 500px) {
+  html {
+    background-size: 75%; 
+  }
+}
